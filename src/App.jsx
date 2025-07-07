@@ -6,7 +6,6 @@ import About from './pages/About';
 import Resume from './pages/Resume';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
-import { Analytics } from "@vercel/analytics/next"
 
 export default function App() {
   return (
@@ -25,7 +24,6 @@ export default function App() {
         </div>
       </div>
     </Router>
-    <Analytics />
     </>
   );
 }
