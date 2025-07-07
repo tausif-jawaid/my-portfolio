@@ -5,7 +5,7 @@ export default function Sidebar() {
   return (
     <div className="bg-[#1E1E1E] rounded-2xl p-6 flex flex-col items-center shadow-xl">
       <div className="w-32 h-32 rounded-lg bg-white mb-4">
-        <img className="h-auto w-max block mx-auto square mb-10" src="/pics.jpeg" alt="Random Male avatar"/>
+        <img className="h-auto w-max block mx-auto square mb-10" src="/public/assets/pics.jpeg" alt="Random Male avatar"/>
       </div>
       <br/>
       <br/>
