@@ -6,9 +6,11 @@ import About from './pages/About';
 import Resume from './pages/Resume';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
+import { Analytics } from "@vercel/analytics/next"
 
 export default function App() {
   return (
+    <>
     <Router>
       <div className="min-h-screen bg-[#121212] text-white p-6 md:p-10 grid grid-cols-1 md:grid-cols-3 gap-6">
         <Sidebar />
@@ -23,5 +25,7 @@ export default function App() {
         </div>
       </div>
     </Router>
+    <Analytics />
+    </>
   );
 }
